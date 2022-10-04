@@ -1,0 +1,124 @@
+.bg-container {
+  background-image: linear-gradient(to top, #9796f0, #fbc7d4);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  background-color: #ffffff;
+  width: 60%;
+  padding: 32px;
+  border-radius: 5px;
+  border: 0px;
+}
+.top-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.heading {
+  font-size: 40px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.input {
+  font-size: 12px;
+  font-family: 'Roboto';
+  color: #b5b7c4;
+}
+#input-title {
+  font-family: 'Roboto';
+  margin-bottom: 50px;
+  border: 1px solid #b5b7c4;
+  margin-bottom: 30px;
+  padding: 5px;
+  height: 4vh;
+  outline: none;
+  width: 100%;
+}
+
+#input-date {
+  font-family: 'Roboto';
+  border: 1px solid #b5b7c4;
+  margin-bottom: 30px;
+  padding: 5px;
+  height: 4vh;
+  outline: none;
+  width: 100%;
+}
+
+.btn-style {
+  background-color: #8b5cf6;
+  padding: 5px;
+  color: white;
+  border-radius: 5px;
+  border: 0px;
+  width: 20%;
+  cursor: pointer;
+}
+.img {
+  height: 300px;
+  width: 350px;
+}
+.hr-line {
+  border: 1px solid #b5b7c4;
+  margin-top: 20px;
+}
+
+.bottom-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.bottom-para {
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+.starred-ac-style {
+  border: 0px;
+  padding: 3px;
+  color: #ffffff;
+  border-radius: 5px;
+  background-color: #8b5cf6;
+  cursor: pointer;
+  height: 3vh;
+  margin-top: 15px;
+}
+
+.starred-nr-style {
+  border: 1px solid #b5b7c4;
+  padding: 3px;
+  color: #b5b7c4;
+  border-radius: 5px;
+  background-color: #ffffff;
+  cursor: pointer;
+  height: 3vh;
+  margin-top: 15px;
+}
+
+.list-container {
+  list-style-type: none;
+  display: flex;
+  padding: 0px;
+}
+
+@media screen and (max-width: 576px) {
+  .img {
+    display: none;
+    height: 300px;
+    width: 350px;
+  }
+  .list-container {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+  }
+}
